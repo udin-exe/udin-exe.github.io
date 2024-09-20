@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(114, 103, 75, 0.301);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.img-profile{
+    height: 400px;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+}
+.Personal-account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    width: 500px;
+}
+.img-holder{
+    margin-right:20px ;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    height: 70px;
+    margin-right: 5px;
+    padding: 10px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 20px;
+}
+.logo:hover{
+    background-color: white;
+    box-shadow: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.cv-button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+button{
+    font-size: 14px;
+}
+.cv-button:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.porto-button{
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+.porto-button:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
